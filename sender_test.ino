@@ -14,9 +14,10 @@
 
 #define BAND 868E6
 
-#define OLED_SDA 4
-#define OLED_SCL 15 
-#define OLED_RST 16
+#define OLED_SDA 21
+#define OLED_SCL 22 
+#define OLED_RST 16 //Parece que ya no es necesario desde V2.0 pero es posible que la pantalla SSD1306 no funcione bien asi que por si acaso NO TOCAR
+                    /*Enlace a lo mencionado: https://github.com/LilyGO/TTGO-LORA32/issues/19 */
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
 #define SCREEN_HEIGHT 64 // OLED display height, in pixels
 
