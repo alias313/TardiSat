@@ -68,12 +68,12 @@ void setup() {
 
 void loop() {
    
-  Serial.print("Sending packet: ");
+  Serial.print("Enviando paquete: ");
   Serial.println(counter);
 
   //Send LoRa packet to receiver
   LoRa.beginPacket();
-  LoRa.print("hello ");
+  LoRa.print("hola ");
   LoRa.print(counter);
   LoRa.endPacket();
   
@@ -82,9 +82,9 @@ void loop() {
   display.println("LORA SENDER");
   display.setCursor(0,20);
   display.setTextSize(1);
-  display.print("LoRa packet sent.");
+  display.print("paquete LoRa enviado.");
   display.setCursor(0,30);
-  display.print("Counter:");
+  display.print("Contador:");
   display.setCursor(50,30);
   display.print(counter);      
   display.display();
