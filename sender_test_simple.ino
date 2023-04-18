@@ -9,7 +9,7 @@
 #define MISO 19
 #define MOSI 27
 #define SS 18
-#define RST 23 //si no funciona prueba con 14 y si no 12
+//#define RST 23 NO TOCAR
 #define DIO0 26
 
 #define BAND 868E6
